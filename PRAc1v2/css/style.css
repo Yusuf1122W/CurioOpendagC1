@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Sticky Header */
+.sticky-header {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.website-name {
+    font-size: 24px;
+}
+nav a {
+    transition: 1s;
+}
+nav a:hover {
+    font-size: 30px;
+    transition: 1s;
+}
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar ul li {
+    margin-left: 20px;
+}
+
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+}
+a {
+    transition: all 0.5s ease;
+}
+
+/* Vakken Section */
+.vakken {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.vakken h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.vak-sectie {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.vak-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+}
+
+.vak-item {
+    background-color: #ddd;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.vak-logo {
+    background-color: #ccc;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
+
+/* Docenten Section */
+.docenten {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.docenten-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.docent-item {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.docent-foto {
+    background-color: #ddd;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Overige changes */
+.curiologo {
+    height: 50px;
+    width: 120px;
+} 
+.rooster {                       /* .rooster wordt ook gebruikt voor de blokken.html pagina, in verband met zelfde styling */
+    display: flex;              /* Activeert Flexbox */
+    justify-content: center;     /* Centreert de foto horizontaal */
+    align-items: center;         /* Centreert de foto verticaal */  
+}
+img .rooster {
+    height: 800px;
+    width: 1000px;
+}
+.Text {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    text-align: center;
+}
+.Text p {
+    font-weight: bold;
+}
+.blokken {
+    display: flex;              
+    justify-content: center;     
+    align-items: center;
+}
+img .blokken {
+    height: 800px;
+    width: 1000px;
+}
